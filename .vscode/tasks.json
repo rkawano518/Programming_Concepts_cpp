@@ -14,7 +14,7 @@
                 "-I",
                 "${workspaceFolder}/RK_Logger/include",
                 "-o",
-                "${workspaceFolder}/main.exe"
+                "${workspaceFolder}/Programming_Concepts_cpp"
             ],
             "options": {
                 "cwd": "${fileDirname}"
