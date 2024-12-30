@@ -7,6 +7,7 @@
 #include "binary_search.h"
 #include "quick_sort.h"
 #include "recursion.h"
+#include "merge_sort.h"
 
 LOG_SETUP
 
@@ -17,6 +18,7 @@ int main() {
     binary_search::demonstration();
     quick_sort::demonstration();
     recursion::demonstration();
+    merge_sort::demonstration();
     
     rk::log::endLogThread(logThread);
 
