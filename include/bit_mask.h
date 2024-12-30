@@ -7,10 +7,10 @@
 
 namespace bit_mask {
 
-    constexpr int BIT_SIZE = 4; /**< The amount of bits in the numbers that are processed */
+    constexpr int BIT_SIZE = 4; /**< The amount of bits in the numbers that are processed in the examples */
 
     /**
-     * @brief Sets the bits in the number based on the bits in the mask that are set to 1. Ignores 0s.
+     * @brief Sets the bits in the number by using the bit mask.
      * 
      * @param int The number to apply the mask to.
      * @param int The mask.
@@ -20,7 +20,7 @@ namespace bit_mask {
     int setBits(const int, const int);
 
     /**
-     * @brief Clears the bits in the number based on the specified bits in the mask that are set to 1. Ignores 0s.
+     * @brief Clears the bits in the number by using the bit mask.
      * 
      * @param int The number to apply the mask to.
      * @param int The mask.
@@ -30,7 +30,7 @@ namespace bit_mask {
     int clearBits(const int, const int);
 
     /**
-     * @brief Toggles the bits in the number based on the specified bits in the mask that are set to 1. Ignores 0s.
+     * @brief Toggles the bits in the number by using the bit mask.
      * 
      * @param int The number to apply the mask to.
      * @param int The mask.
@@ -40,7 +40,7 @@ namespace bit_mask {
     int toggleBits(const int, const int);
 
     /**
-     * @brief Checks whether certain bits in the number are set based on the bits in the mask that are set to 1. Ignores 0s.
+     * @brief Checks whether certain bits in the number are set by using the bit mask.
      * 
      * @param int The number to apply the mask to.
      * @param int The mask.

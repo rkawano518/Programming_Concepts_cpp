@@ -1,6 +1,6 @@
 /**
  * @file bit_mask.cpp
- * @brief Source for the Bit Mask concept.
+ * @brief Source file for the Bit Mask concept.
  */
 #include <bitset>
 #include "bit_mask.h"
