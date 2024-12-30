@@ -1,6 +1,6 @@
 /**
  * @file utility.h
- * @brief Source file for utility functions.
+ * @brief Header file for utility functions.
  */
 #ifndef UTILITY_H
 #define UTILITY_H
