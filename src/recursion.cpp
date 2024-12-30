@@ -5,6 +5,7 @@
 #include <thread>
 #include "recursion.h"
 #include "logger/log.h"
+#include "utility.h"
 
 namespace recursion {
 
@@ -49,7 +50,7 @@ std::string reverseString(std::string s) {
  * Demonstrates recursion by calling the recursive functions in this namespace. 
  */
 void demonstration() {
-    LOG("Starting recursion demonstration\n");
+    utility::printSectionTitle("Recursion");
     
     // Add digits of an integer
     const int digits = 15827;

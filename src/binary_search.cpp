@@ -6,6 +6,7 @@
 #include <thread>
 #include "binary_search.h"
 #include "logger/log.h"
+#include "utility.h"
 
 namespace binary_search {
 
@@ -75,7 +76,7 @@ int binarySearchRecursive(const std::vector<int>& list, int target, int low, int
  * on the list.
  */
 void demonstration() {
-    LOG("Starting binary search demonstration\n");
+    utility::printSectionTitle("Binary Search");
     std::vector<int> sortedList = { 1, 4, 8, 23, 46, 400, 2364};
 
     LOG("Sorted array:\n");
