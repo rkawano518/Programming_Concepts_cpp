@@ -8,6 +8,7 @@
 #include "quick_sort.h"
 #include "recursion.h"
 #include "merge_sort.h"
+#include "bit_mask.h"
 
 LOG_SETUP
 
@@ -19,6 +20,7 @@ int main() {
     quick_sort::demonstration();
     recursion::demonstration();
     merge_sort::demonstration();
+    bit_mask::demonstration();
     
     rk::log::endLogThread(logThread);
 
