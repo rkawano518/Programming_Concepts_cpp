@@ -4,6 +4,7 @@
  */
 #include "quick_sort.h"
 #include "logger/log.h"
+#include "utility.h"
 
 namespace quick_sort {
 
@@ -63,7 +64,7 @@ void quickSort(int arr[], const int low, const int high, std::mt19937& gen) {
  * Prints an unsorted list of numbers, sorts it with Quick Sort, then prints the sorted result.
  */
 void demonstration() {
-    LOG("Starting quick sort demonstration\n");
+    utility::printSectionTitle("Quick Sort");
 
     // Unsorted array of numbers
     int arr[] = {

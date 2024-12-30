@@ -3,6 +3,7 @@
  * @brief Source file for the Merge Sort algorithm.
  */
 #include "merge_sort.h"
+#include "utility.h"
 
 namespace merge_sort {
 
@@ -92,7 +93,7 @@ namespace merge_sort {
     }
 
     void demonstration() {
-        LOG("Starting Merge Sort demonstration\n");
+        utility::printSectionTitle("Merge Sort");
 
         std::vector<int> data = { 42, 17, 89, 56, 23, 74, 31, 98, 15, 67, 8, 29, 60, 77, 91, 34, 3, 50, 12, 85 };
         std::string unsortedData;
